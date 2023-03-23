@@ -1,11 +1,11 @@
-public class SharedData 
+public class SharedData //
 {
-	private int [] array;
+	private ArrayList<Intger> array = new ArrayList<>();
 	private boolean [] winArray;
 	private boolean flag;
 	private final int b;
 	
-	public SharedData(int[] array, int b) {
+	public SharedData(ArrayList<Intger> array, int b) {
 		
 		this.array = array;
 		this.b = b;
@@ -21,7 +21,7 @@ public class SharedData
 		this.winArray = winArray;
 	}
 
-	public int[] getArray() 
+	public ArrayList<Intger> getArray() 
 	{
 		return array;
 	}
