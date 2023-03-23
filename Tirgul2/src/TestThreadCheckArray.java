@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/** This class check if there are numbers that equal to the given number using threads
+ * @author Tameer
+ *@version 1 10:40 Thursday
+ */
 public class TestThreadCheckArray {
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {

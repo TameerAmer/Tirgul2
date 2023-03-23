@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 
-public class SharedData //
+/**This class is the shared data
+ * @author Asus
+ *
+ */
+public class SharedData 
 {
 	private ArrayList<Integer> array = new ArrayList<>();
 	private boolean [] winArray;
