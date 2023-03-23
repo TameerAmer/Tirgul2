@@ -6,8 +6,12 @@ import java.util.Scanner;
  *@version 1 10:40 Thursday
  */
 public class TestThreadCheckArray {
+	/**main
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
+			
 			Thread thread1, thread2;
 			System.out.println("Enter array size");
 			int num  = input.nextInt();

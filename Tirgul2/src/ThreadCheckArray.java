@@ -6,6 +6,10 @@ import java.util.ArrayList;
  */
 public class ThreadCheckArray implements Runnable 
 {
+	
+	/** class variables
+	 * @author Asus
+	 */
 	private boolean flag;
 	private boolean [] winArray;
 	SharedData sd;
